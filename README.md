@@ -1,5 +1,6 @@
 # stepin_miniproject
-Miniproject on Book Cricket using C language\
+
+## Miniproject on Book Cricket using C language\
 ![capture](https://github.com/Chaitu2134/miniproject/blob/main/5_images_and_videos/bookcricket.jpg)
 
 ## Folder Structure
