@@ -36,7 +36,7 @@ A contact manager is a software program that enables users to easily store and f
  - Display contacts.
 
 ## SWOT Analysis
-![SWOT](https://github.com/SriHarshith/291395_LTTS_Project/blob/main/1_Requirements/SWOT.png)
+![SWOT](https://github.com/Chaitu2134/miniproject/blob/main/5_images_and_videos/swot.png)
 
 
 # 4 W's and 1 H
