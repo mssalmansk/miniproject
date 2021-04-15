@@ -1,6 +1,6 @@
 # stepin_miniproject
-Miniproject on C language\
-![capture](https://github.com/Himanshu257170/stepin_miniproject/blob/main/6_ImagesAndVideos/welcome.png)
+Miniproject on Book Cricket using C language\
+![capture](https://github.com/Chaitu2134/miniproject/blob/main/5_images_and_videos/bookcricket.jpg)
 
 ## Folder Structure
 Folder                   | Description
