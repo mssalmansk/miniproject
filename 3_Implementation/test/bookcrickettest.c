@@ -7,7 +7,7 @@
 
 /* Prototypes for all the test functions */
 void test_GetPlayerToss(void);
-void test_batting(void);
+
 
 
 
@@ -24,7 +24,7 @@ int main()
 
 /* Run Test functions */
   RUN_TEST(test_GetPlayerToss);
-  RUN_TEST(test_batting);
+  
 
   /* Close the Unity Test Framework */
   return UNITY_END();
@@ -32,15 +32,11 @@ int main()
 
 /* Write all the test functions */ 
 void test_GetPlayerToss(void) {
-  //TEST_ASSERT_EQUAL(, GetPlayerToss(,,));
-  //TEST_ASSERT_EQUAL(, GetPlayerToss(,,));
+  TEST_ASSERT_EQUAL(7,GetPlayerToss("David Bhai","Kane Mama",1));
+  TEST_ASSERT_EQUAL(,GetPlayerToss("Bairstow","Bhuvaneswar",1));
   
 }
 
-void test_batting(void) {
-  //TEST_ASSERT_EQUAL(,batting(,,));
-  //TEST_ASSERT_EQUAL(,batting(,,));
-  //TEST_ASSERT_EQUAL(,batting(,,));
-}
+
 
 
