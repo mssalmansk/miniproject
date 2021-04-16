@@ -33,7 +33,7 @@ int main()
 /* Write all the test functions */ 
 void test_GetPlayerToss(void) {
   TEST_ASSERT_EQUAL(7,GetPlayerToss("David Bhai","Kane Mama",1));
-  TEST_ASSERT_EQUAL(,GetPlayerToss("Bairstow","Bhuvaneswar",1));
+  TEST_ASSERT_EQUAL(7,GetPlayerToss("Bairstow","Bhuvaneswar",1));
   
 }
 
