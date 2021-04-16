@@ -19,11 +19,13 @@ Folder                   | Description
 
 PS No. |  Name               |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------------------|----------------|----------------|---------------|-------------|--------------
-265042 | Chaitanya Kanagala  | Entire Project (Requirements, Design, Implementation and TestPlanAndOutput)  | NA        |Na  |2 Overall Test cases  | All Passed     
+265042 | Chaitanya Kanagala  | Entire Project (Requirements, Design, Implementation and TestPlanAndOutput)  | 0        |0  |2 Overall Test cases  | All Passed     
   
 
 ## Challenges Faced and How Was It Overcome
-
-1. Creation of Github Workflows - Resolved by Code Inspection and through googling .
-2. Creation of UML diagrams - Resolved by researching about them on internet.
-3. Cost Ananlysis and SWOT Analysis - Resolved them.
+| No. | Challenge | Solution
+|-----|-----------|--------
+|1. | Implementation of SDLC and maaking UML diagrams | Exploring them and linking with the architechture of my project 
+|2. | Unit Testing for the functions which return random values | By making the return value constant for one of the functions |
+|3. | issues in running test cases | specifying correct return values for functions
+|4. | Issues in workflows | filxed them by updating the path to all files correctly
