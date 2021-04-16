@@ -24,7 +24,7 @@ The project is titled as **Book Cricket Game** and developed using C language. B
  - Complexity 
  - Random Function values generation
  - Finding the sum of the players score individually
- - 
+ 
 
 ##  Defining our System
 
