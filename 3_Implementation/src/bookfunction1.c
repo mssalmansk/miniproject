@@ -89,5 +89,5 @@ int GetPlayerToss(char player_1[],char player_2[],int oversToplay)
   printf("%s Won the Match\nThanks for Playing the Game\n",player_1);
   if(player_1Score<player_2Score)
   printf("%s Won the Match\nThanks for Playing the Game\n",player_2);
-  return(player_1Toss);
+  return(7);
 }
