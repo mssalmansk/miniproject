@@ -37,9 +37,9 @@ int batting(char battingplayer[],char bowlingplayer[],int oversToplay)
     {
      printf("Got %d runs\n",battingScore);
                     if(battingScore==6)
-                    printf("Sixerrrrrr Keep it Up\n");
+                    printf("Chakkaaaaaa,Sixerrrrrr\n");
                     if(battingScore==4)
-               printf("Its a Four Great Man\n");
+               printf("Chowkaaaaaaa,Fourrrrrrr\n");
      sum=sum+battingScore;
      printf("%s Score=%d\n",battingplayer,sum);
     }
@@ -77,9 +77,9 @@ int batting(char battingplayer[],char bowlingplayer[],int oversToplay)
   {
    printf("Got %d runs\n",battingScore);
             if(battingScore==6)
-            printf("Sixerrrrrr Keep it Up\n");
+            printf("Chakkaaaaaa,Sixerrrrrr\n");
             if(battingScore==4)
-       printf("Its a Four Great Man\n");
+       printf("Chowkaaaaaa,Fourrrrrr\n");
    sum+=battingScore;
    printf("%s Score=%d\n",battingplayer,sum);
   }
