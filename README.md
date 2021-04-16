@@ -29,3 +29,6 @@ PS No. |  Name               |    Features    | Issuess Raised |Issues Resolved|
 |2. | Unit Testing for the functions which return random values | By making the return value constant for one of the functions |
 |3. | issues in running test cases | specifying correct return values for functions
 |4. | Issues in workflows | filxed them by updating the path to all files correctly
+### References
+The “Book Cricket” Game Built via Modern JavaScript & HTML by Githanshu Chowdary
+
