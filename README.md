@@ -7,7 +7,7 @@
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option)
 ------|----------|-------|--------------
-[![C/C++ CI](https://github.com/Chaitu2134/miniproject/actions/workflows/c_build.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/c_build.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/Chaitu2134/miniproject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/cppcheck.yml)| [![![Unit Testing - Unity](https://github.com/Chaitu2134/miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/unity.yml) | [![Contribution Check - Git Inspector](https://github.com/Chaitu2134/miniproject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/gitinspector.yml)
+[![C/C++ CI](https://github.com/Chaitu2134/miniproject/actions/workflows/c_build.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/c_build.yml) | [![Code Quality - Static Code - Cppcheck](https://github.com/Chaitu2134/miniproject/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/cppcheck.yml)| [![Unit Testing - Unity](https://github.com/Chaitu2134/miniproject/actions/workflows/unity.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/unity.yml) | [![Contribution Check - Git Inspector](https://github.com/Chaitu2134/miniproject/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Chaitu2134/miniproject/actions/workflows/gitinspector.yml)
 
 ## Folder Structure
 Folder                   | Description
