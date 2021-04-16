@@ -84,4 +84,4 @@ This application was developed in C language to avoid the complexity and to keep
  LR03 | Implementing a function which takes the users according to the toss for the next steps which are batting/bowling. | HR03| Implemented |
 | LR04 | If user searches for an invalid key "Invalid Input" message should be displayed | HR03| Implemented |
 | LR05 |Implementing a fnction named batting which returns the total sum of the score of the two players. | HR04| Implemented |
-| LR06 |A clean graphical user interface with all required buttons for ease of use  | HR05| Implemented |
+| LR06 |A clean graphical user interface with all required buttons for ease of use  | HR05| Future |
