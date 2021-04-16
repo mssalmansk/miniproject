@@ -34,23 +34,11 @@ int main()
  else if(noofovers==3)
  {
   printf("How To Play?\n");
-  printf("Until a player Won the toss Follow the Output and give whatever it asks you to give\n");
-  printf("Then the Player who won the toss chooses either to Bat or to Bowl\n");
-  printf("The Player who chose batting and bowling has to proceed by pressing enter Key one by one\n");
-  printf("Where System will generate Random number as runs for both players.Player 1 runs keeps on adding until his runs equals to player 2 runs\n");
-  printf("Finally When Player 1 is Out.Till then his runs are his final Score.The Same process will be Conducted for player 2.\n");
-  printf("Finally whoever is having Highest Score is the Winner.\n\n");
-  printf("For Example: Player 1 Won the Toss And Chose Batting.Then When Player 1 Press Enter Key,A score will be generated for Player 1\n");
-  printf("Suppose runs are 5 So Player 1 Score=5.Then Player 2 Also Presses Enter key.Then if he got a Score of 4.So Player 2 Score =4\n");
-  printf("As Player 1 Score is not equal to player 2 Score Then Player 1 is not out and hi score will be 5 after 1st ball \n");
-  printf("In 2nd ball Player 1 got 3 runs and Player 2 got 4.Since again both are not equal.Player 1 Score=5+3=8\n");
-  printf("If in the 3rd Ball Player 1 got 4 runs and Player 2 also got 4 runs Then Player 1 Score is equal to Player 2's Score Then Player 1 is Out\n");
-  printf("Then Final Score of player 1 is 8 runs.\n");
-  printf("The Same Process is done for Player 2.So Finaly who ever got more score is Winner\n");
+  printf("The project is titled as Book Cricket Game and developed using C language.\n Book Cricket is an indoor game which can be played by kids with a book.This game is made for two players.\n The two players will have to decide who is going to guess the toss. After winning the toss, the player has to select whether he has to bat/bowl first. \nThe player who is going to bat first, need to hold the book. \nHe has to randomly open the pages of the book and look for the last digit of that page number which is nothing but the runs obtained in that particular ball. If the last digit is 7/8/9, then it will be considered as a dot ball. \nThe obtained score will be added to the batsman's score everytime. \nThe batsman will be out if the number is 0. Then, the second player has to play with the book in the same process.");
  }
  else
  {
-  printf("--------------------------------------------Invalid Choice--------------------------------------------\n");
+  printf(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Invalid Choice<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n");
  }
  printf("Enter 1 - Fixed Overs\n2 - Play Until Out\n3 - How to Play?\n4 - Exit: ");
  scanf("%d",&noofovers);
