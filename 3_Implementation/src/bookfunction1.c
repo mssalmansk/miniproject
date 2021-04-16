@@ -38,19 +38,19 @@ int GetPlayerToss(char player_1[],char player_2[],int oversToplay)
    scanf("%d",&batorbowlChoice);
    if(batorbowlChoice==1)
    {
-        printf("----------------%s is Going to bat Now-----------------------\n",player_1);
+        printf(">>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<\n",player_1);
     player_1Score=batting(player_1,player_2,oversToplay);
-    printf("----------------%s is Going to bat Now-----------------------\n",player_2);
+    printf(">>>>>>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<<\n",player_2);
     player_2Score=batting(player_2,player_1,oversToplay);
-    printf("----------------Its Time for Results-----------------------\n");
+    printf(">>>>>>>>>>>>>>>>>>>>>Results Time<<<<<<<<<<<<<<<<<<<<<<<<\n");
    }
    else
    {
-    printf("----------------%s is Going to bat Now-----------------------\n",player_2);
+    printf(">>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<\n",player_2);
     player_2Score=batting(player_2,player_1,oversToplay);
-    printf("----------------%s is Going to bat Now-----------------------\n",player_1);
+    printf(">>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<\n",player_1);
     player_1Score=batting(player_1,player_2,oversToplay);
-    printf("----------------Its Time for Results-----------------------\n");
+    printf(">>>>>>>>>>>>>>>>>>>>>Results Time<<<<<<<<<<<<<<<<<<<<<<<<\n");
    }
   }
   else if(toss==player_2Choice)
@@ -61,24 +61,24 @@ int GetPlayerToss(char player_1[],char player_2[],int oversToplay)
    scanf("%d",&batorbowlChoice);
    if(batorbowlChoice==1)
    {
-    printf("----------------%s is Going to bat Now-----------------------\n",player_2);
+    printf(">>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<\n",player_2);
     player_2Score=batting(player_2,player_1,oversToplay);
-    printf("----------------%s is Going to bat Now-----------------------\n",player_1);
+    printf(">>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<\n",player_1);
     player_1Score=batting(player_1,player_2,oversToplay);
-    printf("----------------Its Time for Results-----------------------\n");
+    printf(">>>>>>>>>>>>>>>>>>>>>Results Time<<<<<<<<<<<<<<<<<<<<<<<<\n");
    }
    else
    {
-    printf("----------------%s is Going to bat Now-----------------------\n",player_1);
+    printf(">>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<\n",player_1);
     player_1Score=batting(player_1,player_2,oversToplay);
-    printf("----------------%s is Going to bat Now-----------------------\n",player_2);
+    printf(">>>>>>>>>>>>>>>>>>%s is Going to bat now<<<<<<<<<<<<<<<<<<<<\n",player_2);
     player_2Score=batting(player_2,player_1,oversToplay);
-    printf("----------------Its Time for Results-----------------------\n");
+    printf(">>>>>>>>>>>>>>>>>>>>>Results Time<<<<<<<<<<<<<<<<<<<<<<<<\n");
    }
   }
   else
   {
-   printf("------------------------------------------------Error-------------------------------------------------\n");
+   printf(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Error<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n");
    return(0);
   }
   if(player_1Score==player_2Score)
